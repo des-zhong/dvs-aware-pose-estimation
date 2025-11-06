@@ -1,6 +1,6 @@
 # DVS-aware Pose Estimation
 
-Short README for this repository. Use this as a starting point to run, train, and deploy the models included in the workspace.
+Short README for this repository. Use this as a starting point to run, train, and deploy the models included in the workspace. Additional modules and documentation will be gradually released as part of ongoing updates
 
 ## Repository layout (key files)
 - [data_loader_slice.py](data_loader_slice.py) — data loader utilities.
@@ -56,4 +56,5 @@ python GPU_inference.py
 Build and register custom operators in [custom_op_in_pytorch/](custom_op_in_pytorch/). See:
 - [`custom_op_myLif.reset_with_decay`](custom_op_in_pytorch/custom_op_myLif.cpp)
 - [`custom_op_myLif.cmp_and_fire`](custom_op_in_pytorch/custom_op_myLif.cpp)
+
 
