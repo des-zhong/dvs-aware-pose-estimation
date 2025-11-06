@@ -18,6 +18,11 @@ Short README for this repository. Use this as a starting point to run, train, an
 
 ## Requirements
 Install dependencies listed in [requirements.txt](requirements.txt):
+```sh
+git clone git@github.com:des-zhong/dvs-aware-pose-estimation.git
+cd dvs-aware-pose-estimation
+```
+Packages:
 
 ```sh
 pip install -r requirements.txt
