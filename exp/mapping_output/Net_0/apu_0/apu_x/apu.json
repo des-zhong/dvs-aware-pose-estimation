@@ -1,0 +1,77 @@
+{
+    "apu_x": {
+        "batch_size": 1,
+        "cmd_size": 512,
+        "ddr_config_size": 32,
+        "image_size": 1202720,
+        "inputs": {
+            "datai0": {
+                "dtype": "float32",
+                "load_data_mode": 0,
+                "lookup_addr_loop": 0,
+                "lookup_addr_name": "",
+                "lookup_addr_size": 0,
+                "lookup_base_addr": 0,
+                "name": "data_0",
+                "shape": "[1, 1, 200, 200]",
+                "shape_ex": [
+                    1,
+                    1,
+                    200,
+                    200
+                ],
+                "size": 40000
+            }
+        },
+        "n_slice": 1,
+        "outputs": {
+            "datao0": {
+                "dtype": "float32",
+                "load_data_mode": 0,
+                "lookup_addr_loop": 32,
+                "lookup_addr_name": "lookup_output0",
+                "lookup_addr_size": 8,
+                "lookup_base_addr": 37580963840,
+                "name": "output0",
+                "shape": "[1, 3]",
+                "shape_ex": [
+                    1,
+                    3
+                ],
+                "size": 3
+            }
+        },
+        "p2p_direct": "false",
+        "sub_image_size": "[1202720]",
+        "sub_image_size_ex": 1202720,
+        "total_calc": 430748000.0,
+        "userload": {
+            "info": [
+                {
+                    "addr": 38281412608,
+                    "lookUpAddr": 0,
+                    "lookUpAddrLoop": 1,
+                    "lookUpAddrSize": 8,
+                    "path": "./ddr.dat",
+                    "size": 417414
+                },
+                {
+                    "addr": 38386270208,
+                    "lookUpAddr": 0,
+                    "lookUpAddrLoop": 1,
+                    "lookUpAddrSize": 8,
+                    "path": "./unReset.dat",
+                    "size": 0
+                },
+                {
+                    "addr": 0,
+                    "lookUpAddr": 0,
+                    "lookUpAddrLoop": 0,
+                    "lookUpAddrSize": 0,
+                    "path": "./",
+                    "size": 0
+                }
+            ]
+        }
+    }
+}

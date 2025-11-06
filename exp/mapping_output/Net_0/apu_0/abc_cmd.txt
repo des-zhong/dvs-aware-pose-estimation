@@ -1,0 +1,1 @@
+/home/apollo/anaconda3/envs/lyngor/lib/python3.6/site-packages/tvm/GenABC -i ./mapping_output/Net_0/apu_0/apu_lib.bin -s 1,1,200,200 -o ./ -v 0 -r false -g true -e false -x 0 -m 0 -d float -b 1 -c 0 --optFlag 0 --inputprocmode -1 --ctrlopMoreCmdSize -1 --scaleMaxEn 0

@@ -1,0 +1,25 @@
+{
+    "Reset": {
+        "addrBase": 38281412608,
+        "membranceDat": "./ddr.dat",
+        "membranceSet": {
+            "2f1fd388-42a9-11ef-ab6d-78d0042d5133": 103520,
+            "2f1fd389-42a9-11ef-ab6d-78d0042d5133": 32832,
+            "2f1fd38a-42a9-11ef-ab6d-78d0042d5133": 4608,
+            "2f1fd38b-42a9-11ef-ab6d-78d0042d5133": 512,
+            "2f1fd38c-42a9-11ef-ab6d-78d0042d5133": 0,
+            "2f1fd38d-42a9-11ef-ab6d-78d0042d5133": 417152,
+            "2f1fd38e-42a9-11ef-ab6d-78d0042d5133": 417408
+        },
+        "size": 417414,
+        "snnLookUpAddr": 0
+    },
+    "description": "this is weight information and membrance information",
+    "unReset": {
+        "addrBase": 38386270208,
+        "size": 0,
+        "snnLookUpAddr": 0,
+        "wightDat": "./unReset.dat",
+        "wightSet": null
+    }
+}
